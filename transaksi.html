@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Transaksi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dataanggota.css">
+</head>
+<body>
+    <header class="header">
+		<h1>Perpustakaan Umum</h1>
+	</header>
+    <div class="admin">Halo, Admin</div>
+	<div class="cover">
+		<div class="sidebar">
+            <a href="perpus.html">Beranda</a>
+			<h3>Entry Data dan Transaksi</h3>
+			<ul>
+				<li><a href="dataanggota.html">Data Anggota</a></li>
+				<li><a href="databuku.html">Data Buku</a></li>
+				<li><a href="transaksi.html">Transaksi Peminjman</a></li>
+			</ul>
+			<h3>Laporan</h3>
+			<ul>
+				<li><a href="#">Lap. Data Anggota</a></li>
+				<li><a href="#">Lap. Data Buku</a></li>
+			</ul>
+		</div>
+
+        <div class="main">
+			<h2>Data Transaksi</h2>
+            <table>
+                <form>
+                <label for="id_buku">Nama Peminjam :</label>
+                <input type="text" id="id_buku" name="id_buku"><br>
+              <label for="nama_buku">Judul Buku:</label>
+              <input type="text" id="nama_buku" name="nama_buku"><br>
+              
+              <label for="pengarang">Tanggal Peminjaman:</label>
+              <input type="text" id="pengarang" name="pengarang"><br>
+              
+              <label for="penerbit">Tanggal Pengembalian:</label>
+              <input type="text" id="penerbit" name="penerbit"><br>
+              
+              <label for="tahun_terbit">Dendan:</label>
+              <input type="text" id="tahun_terbit" name="tahun_terbit"><br>
+              
+                <input type="submit" value="Submit">
+            </form>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Nama Peminjam</th>
+                        <th>Judul Buku</th>
+                        <th>Tanggal Peminjaman</th>
+                        <th>Tanggal Pengembalian</th>
+                        <th>Denda</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Andi</td>
+                        <td>Harry Potter and the Philosopher's Stone</td>
+                        <td>10 Februari 2022</td>
+                        <td>24 Februari 2022</td>
+                        <td>Rp 1.000</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Budi</td>
+                        <td>To Kill a Mockingbird</td>
+                        <td>15 Maret 2022</td>
+                        <td>30 Maret 2022</td>
+                        <td>Rp 2.500</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Citra</td>
+                        <td>Pride and Prejudice</td>
+                        <td>21 Januari 2022</td>
+                        <td>7 Februari 2022</td>
+                        <td>Rp 500</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Dewi</td>
+                        <td>The Great Gatsby</td>
+                        <td>5 April 2022</td>
+                        <td>19 April 2022</td>
+                        <td>Rp 3.000</td>
+                    </tr>
+                </tbody>
+            </table>
+        </body>
+</html>

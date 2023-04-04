@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Anggota Perpustakaan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dataanggota.css">
+</head>
+<body>
+	<header class="header">
+		<h1>Perpustakaan Umum</h1>
+	</header>
+    <div class="admin">Halo, Admin</div>
+	<div class="cover">
+		<div class="sidebar">
+            <a href="perpus.html">Beranda</a>
+			<h3>Entry Data dan Transaksi</h3>
+			<ul>
+				<li><a href="dataanggota.html">Data Anggota</a></li>
+				<li><a href="databuku.html">Data Buku</a></li>
+				<li><a href="transaksi.html">Transaksi Peminjman</a></li>
+			</ul>
+			<h3>Laporan</h3>
+			<ul>
+				<li><a href="#">Lap. Data Anggota</a></li>
+				<li><a href="#">Lap. Data Buku</a></li>
+			</ul>
+		</div>
+		<div class="main">
+			<h2>Data Anggota</h2>
+
+			<form>
+				<label for="id_anggota">ID Anggota:</label>
+				<input type="text" id="id_anggota" name="id_anggota"><br>
+
+				<label for="nama">Nama:</label>
+				<input type="text" id="nama" name="nama"><br>
+
+				<label for="jenis_kelamin">Jenis Kelamin:</label>
+				<select id="jenis_kelamin" name="jenis_kelamin">
+					<option value="laki-laki">Laki-Laki</option>
+					<option value="perempuan">Perempuan</option>
+				</select><br>
+
+				<label for="alamat">Alamat:</label>
+				<textarea id="alamat" name="alamat"></textarea><br>
+
+				<input type="submit" value="Submit">
+			</form>
+
+	<table>
+		<thead>
+			<tr>
+				<th>No.</th>
+				<th>ID Anggota</th>
+				<th>Nama</th>
+				<th>Jenis Kelamin</th>
+				<th>Alamat</th>
+				<th>Tanggal Bergabung</th>
+			</tr>
+		</thead>
+			<tbody>
+			<tr>
+				<td>1</td>
+				<td>101</td>
+				<td>Andi</td>
+				<td>Laki-Laki</td>
+				<td>Jl. Merdeka No. 123</td>
+				<td>15 Februari 2022</td>
+			</tr>
+			</tbody>
+		</table>		
+		</div>
+	</div>
+</body>
+</html>

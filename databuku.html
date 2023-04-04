@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Data Buku Perpustakaan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="dataanggota.css">
+</head>
+<body>
+    <header class="header">
+		<h1>Perpustakaan Umum</h1>
+	</header>
+    <div class="admin">Halo, Admin</div>
+	<div class="cover">
+		<div class="sidebar">
+            <a href="perpus.html">Beranda</a>
+			<h3>Entry Data dan Transaksi</h3>
+			<ul>
+				<li><a href="dataanggota.html">Data Anggota</a></li>
+				<li><a href="databuku.html">Data Buku</a></li>
+				<li><a href="transaksi.html">Transaksi Peminjman</a></li>
+			</ul>
+			<h3>Laporan</h3>
+			<ul>
+				<li><a href="#">Lap. Data Anggota</a></li>
+				<li><a href="#">Lap. Data Buku</a></li>
+			</ul>
+		</div>
+
+        </table>
+        <div class="main">
+			<h2>Data Buku Perpustakaan</h2>
+
+            <form>
+                <label for="id_buku">ID Buku:</label>
+                <input type="text" id="id_buku" name="id_buku"><br>
+              <label for="nama_buku">Nama Buku:</label>
+              <input type="text" id="nama_buku" name="nama_buku"><br>
+              
+              <label for="pengarang">Pengarang:</label>
+              <input type="text" id="pengarang" name="pengarang"><br>
+              
+              <label for="penerbit">Penerbit:</label>
+              <input type="text" id="penerbit" name="penerbit"><br>
+              
+              <label for="tahun_terbit">Tahun Terbit:</label>
+              <input type="text" id="tahun_terbit" name="tahun_terbit"><br>
+              
+                <input type="submit" value="Submit">
+              </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Judul Buku</th>
+                    <th>Pengarang</th>
+                    <th>Penerbit</th>
+                    <th>Tahun Terbit</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Harry Potter and the Philosopher's Stone</td>
+                    <td>J.K. Rowling</td>
+                    <td>Bloomsbury</td>
+                    <td>1997</td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>To Kill a Mockingbird</td>
+                    <td>Harper Lee</td>
+                    <td>J. B. Lippincott & Co.</td>
+                    <td>1960</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Pride and Prejudice</td>
+                    <td>Jane Austen</td>
+                    <td>T. Egerton, Whitehall</td>
+                    <td>1813</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>The Great Gatsby</td>
+                    <td>F. Scott Fitzgerald</td>
+                    <td>Charles Scribner's Sons</td>
+                    <td>1925</td>
+                </tr>
+            </tbody>
+		</div>
+</body>
+</html>
